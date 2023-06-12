@@ -1,0 +1,13 @@
+name: daily-report
+
+on: 
+  schedule:
+    - cron: '40 * * * *'
+  workflow_dispatch:
+    
+jobs:
+  my_job: 
+  runs-on: ubuntu-latest
+  steps:
+    - name: runner
+      run: ./runner.sh
