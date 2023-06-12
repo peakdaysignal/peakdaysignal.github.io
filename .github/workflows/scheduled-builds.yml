@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
     
 jobs:
-  my_job: 
-  runs-on: ubuntu-latest
-  steps:
-    - name: runner
+  build:
+    name: runner
+    runs-on: ubuntu-latest
+    steps:
       run: ./runner.sh
