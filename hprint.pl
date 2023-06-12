@@ -15,7 +15,7 @@
 #	Header
 #
 #----------------------------------------------------------------------------
-        $HTML="html/hourlyweather.html";
+        $HTML="index.html";
 	open(OUT,"> $HTML");
 	print OUT "<html>
   <head>
